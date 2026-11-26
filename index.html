@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#163e35">
+  <meta name="description" content="Discover Beauty Bazaar: a collection of home essentials and women's everyday accessories. Explore storage, cleaning, travel and personal accessories.">
+  <title>Beauty Bazaar | Home &amp; Everyday Accessories</title>
+  <link rel="icon" href="assets/logo.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="product-data.js" defer></script>
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div id="site-header"></div>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-photo" src="assets/hero.webp" alt="Beauty Bazaar home and women's accessories arranged on a sunlit vanity" width="1672" height="941" fetchpriority="high">
+      <div class="hero-content wrap">
+        <p class="eyebrow" data-i18n="heroEyebrow">HOME, WITH A PERSONAL TOUCH</p>
+        <h1 id="hero-title">Beauty<br>Bazaar</h1>
+        <p class="hero-copy" data-i18n="heroCopy">A little order. A little beauty.<br>Everyday essentials, beautifully together.</p>
+        <a class="button primary" href="#collection" data-i18n="explore">Explore the collection</a>
+      </div>
+    </section>
+    <div class="brand-line"><span data-i18n="lineOne">For your home.</span><span class="line-flower" aria-hidden="true">&amp;</span><span data-i18n="lineTwo">For your everyday.</span></div>
+    <section class="collection wrap section" id="collection" aria-labelledby="collection-title">
+      <div class="section-heading"><div><p class="eyebrow" data-i18n="collectionEyebrow">THE BEAUTY OF USEFUL THINGS</p><h2 id="collection-title" data-i18n="collectionTitle">Meet your everyday favorites.</h2></div><p data-i18n="collectionCopy">Home essentials and personal little luxuries.<br>One considered collection.</p></div>
+      <div class="collection-toolbar"><div id="filters" class="filters" aria-label="Product categories"></div><span id="results-count" aria-live="polite"></span></div>
+      <div id="product-grid" class="product-grid"></div>
+    </section>
+    <section id="story" class="story-band">
+      <div class="wrap story-layout"><div class="story-image"><img src="assets/toiletry-bag.webp" width="1254" height="1254" alt="Beauty Bazaar signature green zip pouch" loading="lazy"></div><div class="story-copy"><p class="eyebrow" data-i18n="storyEyebrow">THE BEAUTY BAZAAR POINT OF VIEW</p><h2 data-i18n="storyTitle">Life happens in<br>the little things.</h2><p data-i18n="storyCopy">A calmer shelf. A favorite hair tie. A bag that keeps the small things together. Beauty Bazaar brings home essentials and women's accessories into one thoughtful everyday collection.</p><a class="text-link" href="#collection" data-filter-link="women" data-i18n="discoverWomen">Discover personal accessories</a></div></div>
+    </section>
+    <section class="wrap section moments" aria-labelledby="moments-title"><div class="section-heading"><div><p class="eyebrow" data-i18n="momentsEyebrow">TWO SIDES OF YOUR DAY</p><h2 id="moments-title" data-i18n="momentsTitle">At home. On the go.</h2></div></div><div class="moment-grid"><a class="moment" href="#collection" data-filter-link="home"><img src="assets/storage-boxes.webp" width="1254" height="1254" alt="White branded home storage boxes" loading="lazy"><div><p class="eyebrow" data-i18n="home">HOME ESSENTIALS</p><h3 data-i18n="momentHomeTitle">A place for the little things.</h3><span class="text-link" data-i18n="browseHome">Browse home essentials</span></div></a><a class="moment" href="#collection" data-filter-link="women"><img src="assets/jewelry-case.webp" width="1254" height="1254" alt="Beauty Bazaar rose jewelry case" loading="lazy"><div><p class="eyebrow" data-i18n="women">PERSONAL ACCESSORIES</p><h3 data-i18n="momentWomenTitle">Your daily finishing touches.</h3><span class="text-link" data-i18n="browseWomen">Browse personal accessories</span></div></a></div></section>
+    <section class="care-band" id="care"><div class="wrap care-layout"><div><p class="eyebrow" data-i18n="careEyebrow">A LITTLE EXTRA CARE</p><h2 data-i18n="careTitle">Good habits.<br>Everyday care.</h2></div><div class="care-questions" id="care-questions"></div></div></section>
+  </main>
+  <div id="site-footer"></div>
+  <dialog id="saved-dialog" aria-labelledby="saved-title"></dialog>
+  <div id="toast" class="toast" role="status"></div>
+  <noscript><p class="wrap">Please enable JavaScript to explore the product collection and change languages.</p></noscript>
+</body>
+</html>
