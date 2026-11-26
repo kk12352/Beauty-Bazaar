@@ -1,0 +1,32 @@
+window.BB_PRODUCTS = [
+  {
+    id: "nest", page: "product1.html", category: "home", image: "storage-boxes.webp", code: "BB-H01",
+    en: { name: "Nest Storage Duo", type: "Home organization", subtitle: "A quieter corner, one small thing at a time.", description: "A white lidded storage-box concept for organizing the small things around a desk, dressing table or shelf. Two complementary forms keep the look simple and coordinated.", features: ["Two coordinating box shapes", "Removable lids and rounded profiles", "Signature rose and green wordmark"], color: "White", design: "Lidded rectangular boxes", occasion: "Desk, shelf and vanity organization", care: "For any supplied product, follow its care label. Keep boxes dry before storing delicate belongings; suitability for food contact is not established." },
+    zh: { name: "Nest 桌面收纳盒", type: "家居收纳", subtitle: "把零碎小物，安放得刚刚好。", description: "以白色带盖盒身呈现简洁的收纳设计，可作为书桌、梳妆台和置物架的整理灵感。两种相互呼应的盒型，让日常空间更有秩序。", features: ["两种协调搭配的盒型", "可取式盒盖与圆角轮廓", "玫瑰红与墨绿品牌印记"], color: "白色", design: "长方形带盖收纳盒", occasion: "桌面、置物架与梳妆台收纳", care: "实际产品请遵循随附护理标签。收纳贵重小物前请保持盒体干燥；本展示不确认食品接触适用性。" }
+  },
+  {
+    id: "tidy", page: "product2.html", category: "home", image: "cleaning-cloths.webp", code: "BB-H02",
+    en: { name: "Tidy Cloth Trio", type: "Everyday cleaning", subtitle: "A fresh start for everyday surfaces.", description: "A coordinated cleaning-cloth concept in sage, blush and off-white. Distinct colors make it easy to plan separate cloths for different household tasks.", features: ["Three-color cloth arrangement", "Textured fabric appearance", "Sewn Beauty Bazaar brand label"], color: "Sage, blush and off-white", design: "Foldable household cloths", occasion: "Everyday household tidying", care: "Follow the supplied label and surface manufacturer's guidance. Test in a hidden area first and keep cloths used in different areas separate." },
+    zh: { name: "Tidy 日常清洁巾", type: "日常清洁", subtitle: "给日常台面，一个清爽的开始。", description: "鼠尾草绿、柔粉与米白相互搭配的家用清洁巾设计。用不同颜色区分不同清洁区域，让整理习惯更清晰。", features: ["三色搭配设计", "可见织物纹理", "缝制品牌织标"], color: "鼠尾草绿、柔粉、米白", design: "可折叠家用清洁巾", occasion: "日常家居整理", care: "请遵循实物洗护标签和被清洁表面的说明，先在隐蔽处测试；不同区域使用的清洁巾应分开。" }
+  },
+  {
+    id: "roam", page: "product3.html", category: "women", image: "toiletry-bag.webp", code: "BB-W01",
+    en: { name: "Roam Everyday Pouch", type: "Travel organization", subtitle: "Your small essentials, all in one place.", description: "A forest-green zip-pouch concept with a softly structured profile. A simple companion for arranging personal accessories, whether on a dressing table or inside a travel bag.", features: ["Rounded rectangular silhouette", "Zip closure and side loop", "Contrasting signature branding"], color: "Forest green", design: "Zip pouch with side loop", occasion: "Vanity and travel organization", care: "Follow the supplied label. Empty the pouch before cleaning and let it dry completely before storing belongings. Water resistance is not specified." },
+    zh: { name: "Roam 随行洗漱包", type: "出行收纳", subtitle: "随身小物，都有自己的位置。", description: "以墨绿盒型轮廓呈现的拉链收纳包设计。将日常随身配件集中放置，无论梳妆台还是旅行袋，都能保持协调有序。", features: ["圆角长方形轮廓", "拉链开合与侧边提环", "对比色品牌标识"], color: "墨绿色", design: "带侧提环的拉链收纳包", occasion: "梳妆台及旅行收纳", care: "请遵循随附护理标签。清洁前取出物品，充分晾干后再使用；本展示未确认防水性能。" }
+  },
+  {
+    id: "loop", page: "product4.html", category: "women", image: "scrunchies.webp", code: "BB-W02",
+    en: { name: "Loop Satin Scrunchies", type: "Hair accessories", subtitle: "A little color for your everyday routine.", description: "A satin-look scrunchie concept in three signature shades. Gathered folds, a soft sheen and a discreet monogram label bring a considered finish to a familiar accessory.", features: ["Rose, green and off-white palette", "Gathered satin-look finish", "Small woven monogram tabs"], color: "Rose, forest green and off-white", design: "Gathered fabric hair ties", occasion: "Everyday hair styling", care: "Follow the product's care label and avoid overstretching. Fabric composition and hair-care performance have not been verified." },
+    zh: { name: "Loop 缎面发圈", type: "日常发饰", subtitle: "为每天的造型，添一点喜欢的颜色。", description: "以三种品牌色呈现的缎面质感发圈设计。自然褶皱、柔和光泽和小巧织标，让熟悉的日常配件多一份精致。", features: ["柔粉、墨绿、米白配色", "褶皱缎面质感外观", "小巧品牌字母织标"], color: "柔粉、墨绿、米白", design: "褶皱织物发圈", occasion: "日常发型搭配", care: "请遵循实物护理标签，避免过度拉伸。面料成分及护发效果未经验证。" }
+  },
+  {
+    id: "keepsake", page: "product5.html", category: "women", image: "jewelry-case.webp", code: "BB-W03",
+    en: { name: "Keepsake Jewelry Case", type: "Accessory organization", subtitle: "A small home for your favorite pieces.", description: "A burgundy jewelry-case concept with a compact rounded-square shape. Designed as an organization idea for the little pieces that complete a daily outfit.", features: ["Compact square silhouette", "Zip-around opening", "Gold-tone signature wordmark"], color: "Burgundy", design: "Zip-around jewelry case", occasion: "Personal accessory storage", care: "Keep stored jewelry dry and follow each item's care advice. This concept does not imply anti-tarnish protection or a security rating." },
+    zh: { name: "Keepsake 随行首饰盒", type: "饰品收纳", subtitle: "给心爱的饰品，一个小小的家。", description: "以酒红色圆角方形呈现的首饰收纳盒设计。让每天搭配的小饰品集中安放，也为旅行行李增添一份整洁。", features: ["小巧方形轮廓", "环绕式拉链开合", "金色调品牌字样"], color: "酒红色", design: "拉链式首饰收纳盒", occasion: "个人饰品收纳", care: "收纳前保持饰品干燥，并遵循各饰品的护理要求。本设计展示不代表具有防氧化或防盗性能。" }
+  },
+  {
+    id: "reflect", page: "product6.html", category: "women", image: "compact-mirror.webp", code: "BB-W04",
+    en: { name: "Reflect Pocket Mirror", type: "Daily accessories", subtitle: "A finishing touch, wherever the day takes you.", description: "A round folding-mirror concept in a silver-tone finish. A clean profile and engraved branding make this a simple addition to a personal accessories collection.", features: ["Round folding design", "Silver-tone outer finish", "Engraved Beauty Bazaar branding"], color: "Silver tone", design: "Hinged pocket mirror", occasion: "Everyday personal routine", care: "Handle reflective surfaces with care and follow the supplied cleaning instructions. Keep away from children; magnification is not specified." },
+    zh: { name: "Reflect 随行折叠镜", type: "随身配件", subtitle: "无论去哪，都从容整理日常。", description: "以银色调圆形轮廓呈现的折叠镜设计。简洁外观搭配雕刻品牌标识，成为随身配件中的轻巧一员。", features: ["圆形折叠设计", "银色调外观", "雕刻品牌标识"], color: "银色调", design: "铰链式随行折叠镜", occasion: "日常个人整理", care: "请小心保护镜面，并遵循随附清洁说明。放置在儿童无法触及处；本展示未确认放大倍率。" }
+  }
+];
